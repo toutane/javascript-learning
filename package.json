@@ -1,18 +1,18 @@
 {
-  "name": "javascript-the-hard-parts",
+  "name": "codewars-kata",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.20.0",
+    "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-wesbos": "^1.0.1",
@@ -28,5 +28,8 @@
     "extends": [
       "wesbos"
     ]
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1"
   }
 }

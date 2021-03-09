@@ -1,17 +1,17 @@
 // Not pure function :
 
-const name = "Charles";
+const name = 'Charles';
 
 function greet() {
-  console.log('Hi ! ' + name);
+  console.log(`Hi ! ${name}`);
 }
 
-greet()
+greet();
 
 // Pure function :
 
 function pureGeet(nickname) {
-  console.log('Hi ! ' + nickname);
+  console.log(`Hi ! ${nickname}`);
 }
 
-pureGeet('toutane')
+pureGeet('toutane');
